@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block content %}  
+
+<div id="h-1">
+    <div class="q-1">
+    
+        <h1 class="t-1">NETFLIX</h1>
+         
+        <img src={{movie.image}} alt="movie">
+        <h2>Title - {{movie.title}}</i></h2>
+        <h4><i class="fa fa-globe" aria-hidden="true"></i>{{movie.country}}</h4>
+        <h4> <i class="fa fa-imdb" aria-hidden="true"></i> {{movie.imdb}}</h4>
+        <p class="marker"> <i class="fa fa-clock-o" aria-hidden="true"></i> {{movie.duration}} </p>
+        <p class="marker"><i class="fa fa-calendar" aria-hidden="true"></i> {{movie.release_year}}</p>
+        <hr style="color:white;">
+        <p class="V-1">{{movie.description}}</p>
+    </div>
+
+ 
+        <a href="{{url_for('home')}}">
+          <button class="c-1">
+            <i  class="fa fa-heart fa-2x"></i>
+          </button>
+        </a>
+
+        <a href="{{url_for('home')}}">
+            <button class="c-2">
+              <i class="fa fa-thumbs-o-down fa-2x"></i>
+            </button>
+          </a>
+    
+
+    <div class="w-1">
+        <button class="watch" onclick="window.open('https://www.netflix.com/watch/{{movie.id}}', '_blank')"target='0'>Watch</button>
+        <i class="fa fa-star"></i>
+        </button>
+    </div>
+
+
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

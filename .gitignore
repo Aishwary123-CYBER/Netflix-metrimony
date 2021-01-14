@@ -1,0 +1,5 @@
+config.*
+
+api_key = "http://www.omdbapi.com/?i=tt3896198&apikey=df4a7b15"
+
+catalog.csv

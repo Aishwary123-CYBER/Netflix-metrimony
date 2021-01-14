@@ -1,0 +1,88 @@
+body{
+    background-color: pink;
+    z-index: -1;
+    
+}
+
+#h-1{
+    text-align: center;
+    margin-top: 100px;
+    width: 50%;
+    /* height: 100%; */
+    margin: auto;
+    border-radius: 10px;
+   
+}
+
+.q-1{
+    border:  1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    /* height: 100%; */
+    margin: auto;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    
+
+}
+
+
+
+.t-1{
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.c-1{
+    
+    border-radius: 10px;
+ 
+    
+   
+}
+
+.c-2{
+    
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+    
+   
+    
+   
+}
+
+.w-1{
+  
+    border-radius: 10px;
+    font-size: 60px;
+    font-size: large;
+    margin-left: 300px;
+    color: black;
+    margin-bottom: 50px;
+    
+    
+    
+   
+}
+
+button{
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+}
+
+.V-1{
+    font-family: monospace;
+}
+
+footer{
+    background-color:#230D08;
+    color: white;
+}
+
+section{
+    background-color: pink;
+}
+
